@@ -1,0 +1,15 @@
+body { 
+  background-image: url("website_wallpaper.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: white;
+
+}
+html * {
+   color: #000;
+   font-family: 'Quicksand', sans-serif;
+
+}
