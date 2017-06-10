@@ -5,7 +5,6 @@
     <title>Get Google Account</title>
     
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Work+Sans:200' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     
     <script src="https://apis.google.com/js/platform.js" async defer></script>
@@ -21,20 +20,9 @@
 <center><font size="100" color="black">PixelFireblade - Home</font></center>
     <meta name="google-signin-client_id" content="263491991547-hga7f07t6ui41b5b05mkhups3mcilogt.apps.googleusercontent.com">
     <div>
-      <span style="float:right"><div class="g-signin2" data-onsuccess="onSignIn"></div></span><br/>
-      
-        
-      
-    </div>
+      <div class="g-signin2" data-onsuccess="onSignIn"></div><br>
+      <a href="#" class="g-signout2" onclick="signOut();" id = "signOutId">Sign out</a>
     
-    <div class="signInBreak">
-    
-    </div>
-    
-    <div>
-        <span style="float:right"><a href="#" onclick="signOut();" id = "signOutId">Sign out</a></span><br/>
-    
-    </div>
     
     
 <script>
