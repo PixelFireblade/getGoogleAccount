@@ -33,6 +33,9 @@ function signOut(googleUser) {
   console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
   */
   location.reload();
-  $("h3").text("");
-  $("h4").text("");
+  $("idDiv").html("");
+   $("nameDiv").html("");
+   $("profileImageDiv").html("");
+   $("emailDiv").html("");
+  location.reload();
 }
