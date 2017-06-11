@@ -11,10 +11,10 @@ function onSignIn(googleUser) {
   console.log('Image URL: ' + profile.getImageUrl());
   console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
   */
-   $("idDiv").append("<center><b>ID: </b>" + id + "</center>");
-   $("nameDiv").append("<center><b>Name: </b>" + name + "</center>");
-   $("profileImagediv").append("<center><b>Image: </b> <img src=" + profileImage + "></img> </center>");
-   $("emailDiv").append("<b>Email: </b>" + email);
+   $("idDiv").html("<center><b>ID: </b>" + id + "</center>");
+   $("nameDiv").html("<center><b>Name: </b>" + name + "</center>");
+   $("profileImageDiv").html("<center><b>Image: </b> <img src=" + profileImage + "></img> </center>");
+   $("emailDiv").html("<b>Email: </b>" + email);
    
 }
 
